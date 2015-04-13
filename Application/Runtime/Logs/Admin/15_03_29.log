@@ -1,0 +1,911 @@
+[ 2015-03-29T00:01:08+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:03:18+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:03:26+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告2' in 'where clause'
+
+[ 2015-03-29T00:22:03+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告2' in 'where clause'
+
+[ 2015-03-29T00:24:11+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:24:20+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告2' in 'where clause'
+
+[ 2015-03-29T00:24:38+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告3' in 'where clause'
+
+[ 2015-03-29T00:27:17+08:00 ] 127.0.0.1 /AppServer/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:27:21+08:00 ] 127.0.0.1 /AppServer/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.1030s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427560041','2011051309') [ RunTime:0.0920s ]
+
+[ 2015-03-29T00:27:22+08:00 ] 127.0.0.1 /AppServer/Admin/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:27:25+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-29T00:27:46+08:00 ] 127.0.0.1 /AppServer/Admin/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:27:46+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:27:51+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:28:11+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告2' in 'where clause'
+
+[ 2015-03-29T00:29:40+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-29T00:29:47+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title公告2' in 'where clause'
+
+[ 2015-03-29T00:29:54+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title公告2' in 'where clause'
+
+[ 2015-03-29T00:30:12+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title公告2' in 'where clause'
+
+[ 2015-03-29T00:31:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '公告2' in 'where clause'
+
+[ 2015-03-29T00:37:56+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:37:59+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:38:01+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:41:04+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:41:17+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:42:24+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:42:41+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:43:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:44:37+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:46:28+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:46:29+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:46:34+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T00:46:38+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-03-29T00:46:57+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:47:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T00:47:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:28:07+08:00 ] 127.0.0.1 /AppServer/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-03-29T16:28:14+08:00 ] 127.0.0.1 /AppServer/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.1325s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.1425s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.1275s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427617693','2011051309') [ RunTime:0.4150s ]
+
+[ 2015-03-29T16:28:14+08:00 ] 127.0.0.1 /AppServer/Admin/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:28:19+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:05+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:09+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:11+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:41+08:00 ] 127.0.0.1 /AppServer/Admin/User/insertUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:41+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:44+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:48+08:00 ] 127.0.0.1 /AppServer/Admin/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0000s ]
+SQL: DELETE FROM `as_user` WHERE ( student_id=2066666666 ) [ RunTime:0.3120s ]
+
+[ 2015-03-29T16:29:48+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:50+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:29:53+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:30:07+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:30:10+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:30:12+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:30:13+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:30:19+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:32:29+08:00 ] 127.0.0.1 /AppServer/Admin/System/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:32:31+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:32:32+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:33:02+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:33:03+08:00 ] 127.0.0.1 /AppServer/Admin/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:33:05+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:33:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:43:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:43:48+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:45:05+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:45:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:45:13+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:46:16+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:46:21+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:46:28+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:47:08+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:47:13+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:48:30+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:48:34+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:48:34+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:51:01+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T16:51:06+08:00 ] 127.0.0.1 /AppServer/Admin/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0000s ]
+SQL: DELETE FROM `as_user` WHERE ( student_id=2011000002 ) [ RunTime:0.1092s ]
+
+[ 2015-03-29T16:51:06+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:08+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:17+08:00 ] 127.0.0.1 /AppServer/Admin/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:17+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:22+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:53+08:00 ] 127.0.0.1 /AppServer/Admin/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:07:53+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:17+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:20+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:22+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:48+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:50+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:08:58+08:00 ] 127.0.0.1 /AppServer/Admin/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:09:06+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:09:13+08:00 ] 127.0.0.1 /AppServer/Admin/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T17:09:13+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+
+[ 2015-03-29T19:35:51+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.182010s ]
+
+[ 2015-03-29T19:37:27+08:00 ] 127.0.0.1 /AppServer/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:37:36+08:00 ] 127.0.0.1 /AppServer/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0660s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427629056','2011051309') [ RunTime:0.1850s ]
+
+[ 2015-03-29T19:37:36+08:00 ] 127.0.0.1 /AppServer/Admin/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:37:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:40:23+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-29T19:40:24+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:40:29+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:40:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:40:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:41:05+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:41:08+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_notice` [ RunTime:0.0070s ]
+SQL: DELETE FROM `as_notice` WHERE ( id=5 ) [ RunTime:0.2340s ]
+
+[ 2015-03-29T19:41:08+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:11+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:12+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-29T19:41:20+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:29+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:41:29+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:30+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:33+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:41:33+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:35+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:41:44+08:00 ] 127.0.0.1 /AppServer/Admin/System/noticeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:45+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:56+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:41:58+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:42:03+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:42:04+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:42:32+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:42:36+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:42:37+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:42:37+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:42:38+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:42:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:43:04+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:06+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:43:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:43:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:43:08+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:44:43+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:44:51+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:44:52+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:44:54+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:44:59+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:45:03+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-29T19:45:04+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T19:46:06+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:50:58+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-29T19:51:01+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T19:51:58+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T20:03:42+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:06:16+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-03-29T20:08:58+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T20:09:03+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-03-29T20:32:15+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:32:20+08:00 ] 127.0.0.1 /AppServer/Admin/System/insertNotice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:36:09+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:36:41+08:00 ] 127.0.0.1 /AppServer/Admin/User/insertUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T20:36:41+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T20:37:48+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:37:52+08:00 ] 127.0.0.1 /AppServer/Admin/System/insertNotice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T20:38:07+08:00 ] 127.0.0.1 /AppServer/Admin/System/insertNotice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T21:39:17+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T22:42:16+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T22:42:28+08:00 ] 127.0.0.1 /AppServer/Admin/System/insertNotice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T22:42:45+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T22:42:54+08:00 ] 127.0.0.1 /AppServer/Admin/System/insertNotice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-29T22:42:54+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-29T23:31:39+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

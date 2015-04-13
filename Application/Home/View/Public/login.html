@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/css/homeMain.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/iframe.css" rel="stylesheet" type="text/css" />
+</head>
+      
+<body onload="parent.document.all('iframe_size').height=document.body.scrollHeight;">
+		<div class="login_inner">
+            	<form action="" method="post">
+                	<p><span class="login_sign">用户名</span><input type="text"  name="username" id="username"/></p>
+                    <p><span class="login_sign">密&nbsp;&nbsp;&nbsp;码</span><input type="password" name="pwd" id="pwd"/></p>
+                    <p>
+                    	<span class="login_sign">验证码</span><input type="text" name="verify" id="verify" />
+                        <img src="__PUBLIC__/images/li_bg2.gif" id="verify" alt="验证码" onClick="show()" src="" />
+                    </p>
+                    <p>
+                    	<input class="white" type="submit" name="login" value="登录" id="login"/>
+                    	<input class="black" type="reset" name="reset" value="重置" id="reset"/>
+                    </p>    
+                </form>
+		</div>     
+</body>
+</html>

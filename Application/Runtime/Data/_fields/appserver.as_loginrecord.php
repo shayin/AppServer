@@ -1,0 +1,1 @@
+a:7:{i:0;s:2:"ip";i:1;s:8:"location";i:2;s:8:"admin_id";i:3;s:2:"id";i:4;s:4:"time";s:3:"_pk";s:2:"id";s:5:"_type";a:5:{s:2:"ip";s:11:"varchar(15)";s:8:"location";s:11:"varchar(15)";s:8:"admin_id";s:7:"int(15)";s:2:"id";s:7:"int(11)";s:4:"time";s:7:"int(15)";}}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.top{
+	height:50px;
+
+}
+
+.wrap{
+
+}
+
+.left_content{
+	/*width:210px;*/
+	margin-left:-20px;
+	border-right:1px;
+	border-right-color:#DDD;
+	border-right-style:solid;	
+	padding-right:0px;
+}
+
+.right_content{
+/*	word-wrap:break-word;*/
+	margin-left:-10px;
+}
+
+
+.second{
+    font-size: 13px; 
+	margin-left:50px; 
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.second a:link, .second a:visited, .second a:hover, .second a:active{
+		text-decoration:none;	
+}
+
+
+.form-signin{
+	max-width:330px;
+	padding:15px;
+	margin:0 auto;
+}
+
+.login-input{
+	margin-bottom:20px;	
+	margin-top:25px;
+}
+
+.login-label{
+	margin:10px auto 10px 20px;	
+}
+
+.glyphicon{
+	padding-right:5px;	
+}
+
+.nav-header i{
+	padding-right:10px ;	
+}
+
+.welcome{
+	padding-right:36px;	
+}
+
+
+.table th{
+	text-align:center !important;	
+}
+
+.table td{
+	text-align:center !important;
+	vertical-align:middle !important;
+}
+
+#goto{
+	width:50px !important;
+}
+
+
+
+
+.noticeOperation{
+	margin:15px;	
+}
+
+
+.noticeOperation a{
+	padding-right:20px;	
+}
+
+
+.noticeOperation a:link, .noticeOperation a:visited{
+	text-decoration:none;
+	color:#06C;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+
+.noticeOperation a:hover, .noticeOperation a:active{
+	text-decoration:none;
+	color:#00C;
+	font-size:16px;
+	font-family:"微软雅黑";
+}
+
+
+

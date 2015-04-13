@@ -1,0 +1,42 @@
+[ 2015-04-02T08:07:32+08:00 ] 127.0.0.1 /AppServer/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-02T08:07:46+08:00 ] 127.0.0.1 /AppServer/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.1570s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0710s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427933265','2011051309') [ RunTime:0.1230s ]
+
+[ 2015-04-02T08:07:46+08:00 ] 127.0.0.1 /AppServer/Admin/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-02T08:07:49+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-02T08:07:52+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-02T08:07:53+08:00 ] 127.0.0.1 /AppServer/Admin/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-02T08:07:55+08:00 ] 127.0.0.1 /AppServer/Admin/System/Notice/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

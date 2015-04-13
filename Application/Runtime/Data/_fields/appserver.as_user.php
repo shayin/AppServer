@@ -1,0 +1,1 @@
+a:7:{i:0;s:10:"student_id";i:1;s:4:"name";i:2;s:3:"pwd";i:3;s:5:"email";i:4;s:5:"grade";s:3:"_pk";s:10:"student_id";s:5:"_type";a:5:{s:10:"student_id";s:7:"int(15)";s:4:"name";s:11:"varchar(25)";s:3:"pwd";s:8:"char(32)";s:5:"email";s:11:"varchar(25)";s:5:"grade";s:7:"year(4)";}}

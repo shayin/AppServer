@@ -1,0 +1,1254 @@
+[ 2015-03-24T00:00:48+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:00:52+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:00:52+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:00:57+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427126456','2011051309') [ RunTime:0.1630s ]
+
+[ 2015-03-24T00:00:57+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:01:00+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:01:02+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:01:03+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:01:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 187 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 189 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 192 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 195 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 198 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:01:36+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:01:40+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427126500','2011051309') [ RunTime:0.1480s ]
+
+[ 2015-03-24T00:01:40+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:01:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:01:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:01:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:01:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:02:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:02:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:02:46+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:04:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:04:34+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:04:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:04:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:05:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:05:07+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:05:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:05:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:20+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:20+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:08:24+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427126904','2011051309') [ RunTime:0.0610s ]
+
+[ 2015-03-24T00:08:24+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:08:26+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:08:27+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:56+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:08:59+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:09:00+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:09:01+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:09:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:10:07+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:10:09+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:10:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:10:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:10:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 191 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 193 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 196 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 199 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:10:38+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:10:42+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.1250s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0090s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427127042','2011051309') [ RunTime:0.2430s ]
+
+[ 2015-03-24T00:10:42+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:10:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:11+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:12+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:11:13+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:17+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:11:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:11:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:11:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:11:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:11:53+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:12:20+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:12:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:12:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:12:26+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-24T00:12:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:30+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:12:31+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:12:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:13:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:13:27+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:13:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:13:31+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:13:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:13:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:21:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:22:20+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:24:13+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:24:27+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:24:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:25:03+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:25:21+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:25:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:26:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:26:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:26:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:27:06+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:27:13+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:28:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:29:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:29:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:29:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:29:58+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:30:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:30:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:30:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:31:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:32:20+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T00:33:31+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:33:46+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:34:15+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 204 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 207 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 204 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 207 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 202 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 204 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 207 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 216 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-24T00:34:15+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:34:20+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427128460','2011051309') [ RunTime:0.1310s ]
+
+[ 2015-03-24T00:34:20+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:34:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:35:47+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:36:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:36:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:37:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:37:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:37:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:39:47+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:46:57+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:47:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:47:48+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:48:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:48:21+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:48:34+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:48:52+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:49:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:49:14+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:49:21+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:49:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:49:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:49:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:50:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:52:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:53:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:54:01+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:54:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:55:15+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:55:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:55:50+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:55:58+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:57:14+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:58:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:58:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:58:59+08:00 ] 127.0.0.1 /AppServer/Home/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T00:59:20+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T00:59:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:02:56+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:03:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:03:14+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:06:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T01:06:50+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:07:03+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:07:12+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:07:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T01:07:47+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:07:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:08:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:23+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:29+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 20152015 AND `pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427130869','20152015') [ RunTime:0.0600s ]
+
+[ 2015-03-24T01:14:29+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:14:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T01:14:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/destroySession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 210 行.
+NOTIC: [8] Use of undefined constant grade - assumed 'grade' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 211 行.
+NOTIC: [8] Use of undefined constant student_id - assumed 'student_id' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 212 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 213 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\ef4b7fd6613118c7bb9d25012006b037.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:40+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:49+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427130889','2011051309') [ RunTime:0.0590s ]
+
+[ 2015-03-24T01:14:49+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:52+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T01:14:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T12:44:57+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:45:04+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.4836s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.5772s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1427172304','2011051309') [ RunTime:0.2184s ]
+
+[ 2015-03-24T12:45:04+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:45:12+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:47:39+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T12:47:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:47:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:47:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T12:47:46+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:47:47+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-24T12:47:48+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-24T12:47:49+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-24T12:47:50+08:00 ] 127.0.0.1 /AppServer/Home/User/userList/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,5 @@
+[ 2015-02-27T19:34:45+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.111006s ]
+

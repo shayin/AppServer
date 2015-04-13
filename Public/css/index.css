@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.top{
+	height:50px;
+	width:100%;	
+}
+
+.wrap{
+	width:100%;
+	height:100%;	
+}
+
+.left_content{
+/*	background-color:#FCC;*/
+	width:210px;
+	border-right:1px;
+	border-right-color:#999;
+	border-right-style:solid;		
+}
+
+.right_content{
+	
+}
+
+
+.second{
+    font-size: 13px; 
+	margin-left:50px; 
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.second a:link, .second a:visited, .second a:hover, .second a:active{
+		text-decoration:none;	
+}
+
+
+.form-signin{
+	max-width:330px;
+	padding:15px;
+	margin:0 auto;
+}
+
+.login-input{
+	margin-bottom:20px;	
+	margin-top:25px;
+}
+
+.login-label{
+	margin:10px auto 10px 20px;	
+}
+
+.sign{
+	font-size:15px;
+	font-family:"微软雅黑";
+	color:#F00;		
+}
+
+
+
+
+
+
+
+
+
+

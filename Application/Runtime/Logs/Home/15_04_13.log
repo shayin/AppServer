@@ -1,0 +1,480 @@
+[ 2015-04-13T23:39:30+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.064003s ]
+
+[ 2015-04-13T23:39:33+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:39:40+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:39:41+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:41:33+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:48:06+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.3700s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '72ca3c885103dc3f1afa21f8f31069fa' LIMIT 1   [ RunTime:0.0720s ]
+
+[ 2015-04-13T23:48:25+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '72ca3c885103dc3f1afa21f8f31069fa' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:48:30+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.1090s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '72ca3c885103dc3f1afa21f8f31069fa' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:48:33+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:48:34+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:49:02+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:49:09+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:49:42+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:49:42+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:49:46+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:49:46+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:49:53+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify?reflesh=0.7510539034148178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:49:57+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:50:04+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-13T23:50:04+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:50:13+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2015-04-13T23:50:15+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:50:15+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:50:16+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0750s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:50:17+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:50:17+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:50:19+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:50:20+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0750s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:50:20+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:50:20+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:51:00+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:51:00+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:51:45+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-13T23:51:45+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:51:48+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:51:48+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-13T23:51:55+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:51:59+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:00+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:00+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:01+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:01+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:01+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:52:02+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 20 AND `pwd` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:09+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:52:09+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:52:11+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:52:12+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:52:23+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2 AND `pwd` = 'c81e728d9d4c2f636f067f89cc14862c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:52:35+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:53:40+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2015666666 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:53:45+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:53:45+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:53:56+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:54:10+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:54:11+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:54:15+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2011051309 AND `pwd` = '0cc175b9c0f1b6a831c399e269772661' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-04-13T23:54:18+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify?reflesh=0.24605753279524167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:54:31+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2015666666 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:54:42+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2015666666 AND `pwd` = 'f379eaf3c831b04de153469d1bec345e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-04-13T23:54:46+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify?reflesh=0.9785270659484975
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-13T23:54:47+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify?reflesh=0.7481614888071408
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:54:50+08:00 ] 127.0.0.1 /AppServer/Home/Index/verify?reflesh=0.2247806036447425
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-13T23:54:53+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_user` WHERE `student_id` = 2015666666 AND `pwd` = 'f379eaf3c831b04de153469d1bec345e' LIMIT 1   [ RunTime:0.0010s ]
+

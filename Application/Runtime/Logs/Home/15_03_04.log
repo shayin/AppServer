@@ -1,0 +1,3567 @@
+[ 2015-03-04T14:28:29+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.155009s ]
+
+[ 2015-03-04T20:46:02+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:46:08+08:00 ] 127.0.0.1 /AppServer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:46:28+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:1.2101s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.2060s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.1350s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1425473188','2011051309') [ RunTime:0.4280s ]
+
+[ 2015-03-04T20:46:28+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0190s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1425473188','2011051309') [ RunTime:0.1260s ]
+
+[ 2015-03-04T20:46:28+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1425473188','2011051309') [ RunTime:0.0520s ]
+
+[ 2015-03-04T20:46:28+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T20:46:29+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425473189013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:46:34+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425473189014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-03-04T20:46:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425473189015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.1260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0970s ]
+
+[ 2015-03-04T20:46:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425473189016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425473189017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425473189018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=4&_=1425473189019
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 9,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=5&_=1425473189020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 12,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:46:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=7&_=1425473189021
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 18,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:46:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=8&_=1425473189022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 21,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=10&_=1425473189023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 27,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=9&_=1425473189024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 24,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=8&_=1425473189025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 21,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:46:45+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=7&_=1425473189026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 18,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:46:46+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=9&_=1425473189027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 24,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:53:41+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T20:58:17+08:00 ] 127.0.0.1 /AppServer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T20:58:34+08:00 ] 127.0.0.1 /AppServer/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `as_admin` WHERE `admin_id` = 2011051309 AND `pwd` = '3d68e7f26ad605b7f4e392d9b59e8478' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: INSERT INTO `as_loginrecord` (`ip`,`location`,`time`,`admin_id`) VALUES ('127.0.0.1','本机地址','1425473913','2011051309') [ RunTime:0.1510s ]
+
+[ 2015-03-04T20:58:34+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:58:34+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425473914261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:58:38+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425473914262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T20:58:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425473914263
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:58:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425473914264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425473914265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:59:12+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425473914266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:19+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425473914267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:59:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425473914268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425473914269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:30+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425473914270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:59:30+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=5&_=1425473914271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 12,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:31+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=7&_=1425473914272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 18,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=9&_=1425473914273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 24,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T20:59:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=11&_=1425473914274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 30,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T20:59:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425473914275
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:00:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425473914276
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:00:11+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425473914277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:00:18+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425473914278
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:04:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425473914279
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425473914280
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:45+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:05:45+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474345543
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-04T21:05:49+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474345544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-04T21:05:49+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474345545
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:49+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474345546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474345547
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:52+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474345548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:05:55+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474345549
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:06:07+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474345550
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:06:09+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474345551
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0020s ]
+
+[ 2015-03-04T21:06:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474345552
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:09:36+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:09:36+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474576427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:09:38+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474576428
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:09:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474576429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:09:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474576430
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:09:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425474576431
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:10:22+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:10:22+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474622345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:10:23+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474622346
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:10:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474622347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:10:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474622348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:10:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425474622349
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:10:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425474622350
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:15:02+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:15:03+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474903378
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:15:04+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474903379
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:15:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474903380
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:15:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474903381
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.1760s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:15:07+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474903382
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:15:09+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474903383
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:04+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:16:04+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474964174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:16:05+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474964175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:16:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474964176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:16:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474964177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:06+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474964178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474964179
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474964180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:16:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474964181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:16:12+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474964182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:36+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:16:36+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425474996260
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:16:38+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425474996261
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:16:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425474996262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:16:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474996263
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425474996264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:49+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474996265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:16:51+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425474996266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:16:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425474996267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:17:07+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425474996268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0020s ]
+
+[ 2015-03-04T21:17:08+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425474996269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:17:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425474996270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:17:15+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474996271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:17:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474996272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:17:17+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425474996273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0020s ]
+
+[ 2015-03-04T21:17:21+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425474996274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:26+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:19:27+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425475167117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T21:19:28+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425475167118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:19:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425475167119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425475167120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:29+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425475167121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:31+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425475167122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425475167123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425475167124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:38+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=13&_=1425475167125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 36,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=12&_=1425475167126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 33,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=11&_=1425475167127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 30,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=10&_=1425475167128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 27,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=9&_=1425475167129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 24,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=8&_=1425475167130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 21,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=7&_=1425475167131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 18,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=6&_=1425475167132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 15,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=5&_=1425475167133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 12,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:43+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=4&_=1425475167134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 9,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:19:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=3&_=1425475167135
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 6,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425475167136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:19:44+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425475167137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:22:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=2&_=1425475167138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 3,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T21:38:13+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:38:14+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425476293984
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-04T21:38:16+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425476293985
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T21:38:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425476293986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T21:38:16+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425476293987
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:41:26+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:41:26+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480086535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-04T22:41:28+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480086536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:41:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480086537
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:41:28+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480086538
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:42:37+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:42:38+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480158136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-04T22:42:39+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480158137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:42:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480158138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:42:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480158139
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:42:56+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:42:57+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480176985
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:43:12+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:43:12+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480192338
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:43:25+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480192339
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:43:26+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480192340
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:43:26+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480192341
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:44:19+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:44:19+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480259475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:44:23+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480259476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:44:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480259477
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:44:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480259478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:44:39+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480259479
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:44:39+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480259480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:44:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480259481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:45:00+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480259482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:45:00+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480259483
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:45:00+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480259484
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:45:21+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:45:22+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480321855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:45:23+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480321856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:45:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480321857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:45:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480321858
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:45:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:47:16+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:47:16+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480436720
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:47:18+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480436721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:47:18+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480436722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:47:18+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480436723
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:47:21+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:51:46+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:51:47+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480706791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:51:48+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480706792
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:51:48+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480706793
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:51:48+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480706794
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:51:49+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:52:30+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:52:31+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480750765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:52:32+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480750766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:52:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480750767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:52:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480750768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:52:34+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:52:51+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:52:52+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480772162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-04T22:52:54+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480772163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:52:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480772164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:52:54+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480772165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:52:55+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:30+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:55:30+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480930331
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:55:32+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480930332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480930333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:55:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480930334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:55:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:38+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:39+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480938816
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:41+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480938817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:55:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480938818
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:55:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480938819
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:55:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:07+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:56:08+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480968151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-04T22:56:09+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480968152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:56:09+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480968153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:56:09+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480968154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:56:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:19+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:56:20+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480980244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:22+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480980245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480980246
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0910s ]
+
+[ 2015-03-04T22:56:22+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480980247
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:56:23+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:30+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:56:31+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425480990874
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:32+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425480990875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-04T22:56:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425480990876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:56:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425480990877
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:56:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:53+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:53+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481013744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:55+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481013745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:56:55+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481013746
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:56:55+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481013747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:56:56+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:02+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:02+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481022374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-03-04T22:57:04+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481022375
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:04+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481022376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481022377
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:05+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:22+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:23+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481043021
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:24+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481043022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481043023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:57:24+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481043024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:25+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:30+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:31+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481050832
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:32+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481050833
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481050834
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:32+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481050835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:33+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:38+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:38+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481058390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T22:57:40+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481058391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:57:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481058392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T22:57:40+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481058393
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:57:41+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-04T22:58:08+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:58:08+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481088626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:58:10+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481088627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T22:58:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481088628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:58:10+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481088629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T22:58:11+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:04:34+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:04:35+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481474731
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:04:36+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481474732
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:04:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481474733
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T23:04:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481474734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T23:04:37+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:33+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T23:05:33+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481533310
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:35+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481533311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T23:05:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481533312
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T23:05:35+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481533313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T23:05:36+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:42+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:56+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:56+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425481556642
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:05:58+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425481556643
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T23:05:58+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425481556644
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-03-04T23:05:59+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425481556645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2015-03-04T23:05:59+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-04T23:28:12+08:00 ] 127.0.0.1 /AppServer/Home/Main/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T23:28:12+08:00 ] 127.0.0.1 /AppServer/Home/Welcome/welcome?_=1425482892313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_loginrecord` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `as_loginrecord` WHERE ( admin_id=2011051309 ) ORDER BY time desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: adminId E:\xampp\htdocs\AppServer\Application\Runtime\Cache\Home\1411f9e4eee539f864b2612c9e183031.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-04T23:28:14+08:00 ] 127.0.0.1 /AppServer/Home/User/user?_=1425482892314
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-04T23:28:14+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?currentPage=1&_=1425482892315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-03-04T23:28:14+08:00 ] 127.0.0.1 /AppServer/Home/User/userList?pagination=1&_=1425482892316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `as_user` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `as_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `grade`,`student_id`,`name`,`email` FROM `as_user` ORDER BY grade asc, student_id asc LIMIT 0,3   [ RunTime:0.0010s ]
+
+[ 2015-03-04T23:28:15+08:00 ] 127.0.0.1 /AppServer/Home/User/userDelete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
